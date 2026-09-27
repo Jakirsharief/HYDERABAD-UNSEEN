@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Hyderabad Unseen — a cinematic photography journal exploring the heritage, streets, food, architecture and hidden beauty of Hyderabad.">
+
+    <title>Hyderabad Unseen | A Photography Journal</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header" id="header">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span>HYDERABAD</span>
+            <strong>UNSEEN</strong>
+        </a>
+
+        <nav class="nav" id="nav">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#explore" class="nav-link">Explore</a>
+            <a href="#stories" class="nav-link">Stories</a>
+            <a href="#photography" class="nav-link">Photography</a>
+            <a href="#about" class="nav-link">About</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="icon-btn"
+                    id="themeToggle"
+                    aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            A PHOTOGRAPHY JOURNAL FROM THE DECCAN
+        </p>
+
+        <h1>
+            There’s another
+            <span>Hyderabad</span>
+            waiting to be discovered.
+        </h1>
+
+        <p class="hero-description">
+            Stories of ancient forts, quiet lakes, crowded bazaars,
+            timeless architecture and everyday moments from the city
+            of pearls.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#stories" class="btn btn-primary">
+                Explore Stories
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#photography" class="btn btn-outline">
+                View Photography
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="fa-solid fa-arrow-down"></i>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="intro section">
+
+    <div class="container intro-grid">
+
+        <div>
+            <p class="section-label">01 — THE CITY</p>
+
+            <h2>
+                Hyderabad is more than
+                the places you already know.
+            </h2>
+        </div>
+
+        <div class="intro-text">
+
+            <p>
+                Beyond the famous monuments and busy roads is a city
+                filled with quiet corners, warm light, old architecture,
+                conversations over Irani chai and streets that tell
+                stories of generations.
+            </p>
+
+            <p>
+                Hyderabad Unseen is a visual journal dedicated to
+                discovering those moments.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EXPLORE CATEGORIES
+===================================================== -->
+
+<section class="categories section" id="explore">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">02 — EXPLORE</p>
+
+                <h2>
+                    Discover Hyderabad
+                </h2>
+            </div>
+
+            <p>
+                Choose a side of the city and start exploring.
+            </p>
+
+        </div>
+
+
+        <div class="category-grid">
+
+            <button class="category-card"
+                    data-filter="Heritage">
+
+                <img
+                    src="https://images.unsplash.com/photo-1595658658481-d53d3f999875?auto=format&fit=crop&w=1200&q=85"
+                    alt="Hyderabad architecture">
+
+                <div class="category-overlay"></div>
+
+                <div class="category-content">
+
+                    <span>01</span>
+
+                    <h3>Heritage</h3>
+
+                    <p>
+                        Forts, palaces & monuments
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <button class="category-card"
+                    data-filter="Street Life">
+
+                <img
+                    src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?auto=format&fit=crop&w=1200&q=85"
+                    alt="City street">
+
+                <div class="category-overlay"></div>
+
+                <div class="category-content">
+
+                    <span>02</span>
+
+                    <h3>Street Life</h3>
+
+                    <p>
+                        Markets, people & everyday moments
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <button class="category-card"
+                    data-filter="Food">
+
+                <img
+                    src="https://w0.peakpx.com/wallpaper/229/308/HD-wallpaper-charminar-chai-city-construction-hyderabad-chai-monuments-nimrah-cafe-tower-urban.jpg"
+                    alt="Indian food">
+
+                <div class="category-overlay"></div>
+
+                <div class="category-content">
+
+                    <span>03</span>
+
+                    <h3>Food</h3>
+
+                    <p>
+                        Biryani, chai & old-city flavours
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <button class="category-card"
+                    data-filter="Nature">
+
+                <img
+                    src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85"
+                    alt="Nature and lake">
+
+                <div class="category-overlay"></div>
+
+                <div class="category-content">
+
+                    <span>04</span>
+
+                    <h3>Nature</h3>
+
+                    <p>
+                        Lakes, sunsets & green spaces
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <button class="category-card"
+                    data-filter="Photography">
+
+                <img
+                    src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=1200&q=85"
+                    alt="Photography camera">
+
+                <div class="category-overlay"></div>
+
+                <div class="category-content">
+
+                    <span>05</span>
+
+                    <h3>Photography</h3>
+
+                    <p>
+                        Light, shadows & city frames
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <button class="category-card"
+                    data-filter="Hidden Gems">
+
+                <img
+                    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Qutb_Shahi_Tomb_5.jpg/960px-Qutb_Shahi_Tomb_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                    alt="Hidden city location">
+
+                <div class="category-overlay"></div>
+
+                <div class="category-content">
+
+                    <span>06</span>
+
+                    <h3>Hidden Gems</h3>
+
+                    <p>
+                        Quiet places away from the crowds
+                    </p>
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURED STORY
+===================================================== -->
+
+<section class="featured section">
+
+    <div class="container">
+
+        <div class="featured-card">
+
+            <div class="featured-image">
+
+                <img
+                    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Golkonda_Fort_on_a_rainy_day.jpg/1920px-Golkonda_Fort_on_a_rainy_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20130927214504"
+                    alt="Historic Hyderabad architecture">
+
+                <div class="featured-number">
+                    01
+                </div>
+
+            </div>
+
+
+            <div class="featured-content">
+
+                <p class="section-label">
+                    FEATURED STORY
+                </p>
+
+                <h2>
+                    When the city turns gold:
+                    an evening around Golconda
+                </h2>
+
+                <p>
+                    As the afternoon light fades over the ancient walls,
+                    Golconda becomes something completely different.
+                    Stone, sky and history come together in one
+                    unforgettable frame.
+                </p>
+
+                <div class="story-meta">
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Golconda
+                    </span>
+
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        8 min read
+                    </span>
+
+                </div>
+
+                <button class="text-btn"
+                        data-post="1">
+                    Read the story
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     STORIES
+===================================================== -->
+
+<section class="stories section" id="stories">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="section-label">
+                    03 — STORIES
+                </p>
+
+                <h2>
+                    From the city
+                </h2>
+
+            </div>
+
+            <p>
+                Photographs and stories from Hyderabad.
+            </p>
+
+        </div>
+
+
+        <!-- Search -->
+
+        <div class="story-tools">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search stories...">
+
+            </div>
+
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active"
+                        data-filter="All">
+                    All
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="Heritage">
+                    Heritage
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="Street Life">
+                    Street Life
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="Food">
+                    Food
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="Nature">
+                    Nature
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="Photography">
+                    Photography
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="Hidden Gems">
+                    Hidden Gems
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Blog Grid -->
+
+        <div class="posts-grid" id="postsGrid"></div>
+
+
+        <div class="load-more-wrapper">
+
+            <button class="btn btn-dark"
+                    id="loadMoreBtn">
+
+                Load More Stories
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PHOTO BREAK
+===================================================== -->
+
+<section class="photo-break">
+
+    <div class="photo-break-overlay"></div>
+
+    <div class="photo-break-content">
+
+        <p>
+            “A city is not remembered by its buildings alone,
+            but by the moments we find inside them.”
+        </p>
+
+        <span>
+            — HYDERABAD UNSEEN
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PHOTOGRAPHY
+===================================================== -->
+
+<section class="photography section" id="photography">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="section-label">
+                    04 — PHOTOGRAPHY
+                </p>
+
+                <h2>
+                    Frames of Hyderabad
+                </h2>
+
+            </div>
+
+            <p>
+                A visual collection from across the city.
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item gallery-large">
+
+                <img
+                    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Charminar_Aerial_View.jpg/960px-Charminar_Aerial_View.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                    alt="Hyderabad architecture">
+
+                <div class="gallery-caption">
+                    <span>HERITAGE</span>
+                    <h3>Old Hyderabad</h3>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Falaknuma_Palace_01.jpg/960px-Falaknuma_Palace_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                    alt="City architecture">
+
+                <div class="gallery-caption">
+                    <span>ARCHITECTURE</span>
+                    <h3>Lines of the city</h3>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKUIV1YKjbbd568QOwgP_XZV4VGhA6PAAclOIa-tgng&s=10"
+                    alt="Lake landscape">
+
+                <div class="gallery-caption">
+                    <span>NATURE</span>
+                    <h3>Quiet waters</h3>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHdNHxnT4crNA9tlbYBZ2iaZYRwPmzYWvQuwj0cadjZA&s=10"
+                    alt="Street photography">
+
+                <div class="gallery-caption">
+                    <span>STREET LIFE</span>
+                    <h3>Between the streets</h3>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQma7AmC9Z_m1JKXTtFOoEdXXBa6_mUgjhtlje3QDiu1w&s=10"
+                    alt="Night city">
+
+                <div class="gallery-caption">
+                    <span>NIGHT</span>
+                    <h3>After sunset</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=1200&q=85"
+                alt="Photography camera">
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-label">
+                05 — ABOUT
+            </p>
+
+            <h2>
+                Seeing the city
+                differently.
+            </h2>
+
+            <p>
+                Hyderabad Unseen started with a simple idea:
+                slow down and look closer.
+            </p>
+
+            <p>
+                We photograph the architecture, streets, people,
+                food and landscapes that make Hyderabad unique.
+                Not just the famous landmarks — but the small
+                moments between them.
+            </p>
+
+            <a href="#newsletter"
+               class="btn btn-primary">
+                Join the journal
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     NEWSLETTER
+===================================================== -->
+
+<section class="newsletter section"
+         id="newsletter">
+
+    <div class="container">
+
+        <div class="newsletter-card">
+
+            <div>
+
+                <p class="section-label">
+                    THE JOURNAL
+                </p>
+
+                <h2>
+                    Discover something new
+                    every week.
+                </h2>
+
+                <p>
+                    New photographs, stories and hidden places
+                    from Hyderabad — delivered occasionally.
+                </p>
+
+            </div>
+
+
+            <form id="newsletterForm"
+                  class="newsletter-form">
+
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="Your email address"
+                    required>
+
+                <button type="submit">
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo footer-logo">
+                    <span>HYDERABAD</span>
+                    <strong>UNSEEN</strong>
+                </a>
+
+                <p>
+                    A visual journal exploring the hidden beauty
+                    of Hyderabad.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>Explore</h4>
+
+                    <a href="#stories">Stories</a>
+                    <a href="#photography">Photography</a>
+                    <a href="#explore">Categories</a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>Follow</h4>
+
+                    <a href="#">
+                        Instagram
+                    </a>
+
+                    <a href="#">
+                        Pinterest
+                    </a>
+
+                    <a href="#">
+                        YouTube
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>Contact</h4>
+
+                    <a href="mailto:hello@hyderabadunseen.com">
+                        Email
+                    </a>
+
+                    <a href="#about">
+                        About
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Hyderabad Unseen.
+                All rights reserved.
+            </p>
+
+            <p>
+                Made with curiosity in Hyderabad.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     ARTICLE MODAL
+===================================================== -->
+
+<div class="modal"
+     id="articleModal"
+     aria-hidden="true">
+
+    <div class="modal-backdrop"></div>
+
+    <div class="modal-container">
+
+        <button class="modal-close"
+                id="modalClose"
+                aria-label="Close article">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div class="modal-image">
+
+            <img id="modalImage"
+                 src=""
+                 alt="">
+
+        </div>
+
+
+        <article class="modal-content">
+
+            <div class="article-category"
+                 id="modalCategory">
+            </div>
+
+            <h2 id="modalTitle"></h2>
+
+            <div class="article-meta">
+
+                <span id="modalLocation"></span>
+
+                <span id="modalDate"></span>
+
+                <span id="modalReadTime"></span>
+
+            </div>
+
+
+            <div class="article-actions">
+
+                <button id="bookmarkBtn">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <span>Save</span>
+                </button>
+
+                <button id="shareBtn">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span>Share</span>
+                </button>
+
+            </div>
+
+
+            <div class="article-body"
+                 id="modalBody">
+            </div>
+
+
+            <div class="article-details">
+
+                <div>
+
+                    <span>LOCATION</span>
+
+                    <strong id="detailLocation"></strong>
+
+                </div>
+
+                <div>
+
+                    <span>BEST TIME</span>
+
+                    <strong id="detailTime"></strong>
+
+                </div>
+
+                <div>
+
+                    <span>BEST FOR</span>
+
+                    <strong id="detailFor"></strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="related-section">
+
+                <h3>
+                    You may also like
+                </h3>
+
+                <div class="related-grid"
+                     id="relatedGrid">
+                </div>
+
+            </div>
+
+
+            <div class="comments-section">
+
+                <h3>
+                    Leave a comment
+                </h3>
+
+                <form id="commentForm">
+
+                    <input
+                        type="text"
+                        id="commentName"
+                        placeholder="Your name"
+                        required>
+
+                    <textarea
+                        id="commentText"
+                        placeholder="Share your thoughts..."
+                        required>
+                    </textarea>
+
+                    <button type="submit"
+                            class="btn btn-dark">
+                        Post Comment
+                    </button>
+
+                </form>
+
+                <div id="commentsList"></div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</div>
+
+
+<!-- Toast -->
+
+<div class="toast"
+     id="toast">
+</div>
+
+
+<!-- Back to top -->
+
+<button class="back-top"
+        id="backTop"
+        aria-label="Back to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+<!-- =====================================================
+     AI ASSISTANT
+===================================================== -->
+
+<button class="ai-assistant-btn" id="aiAssistantBtn">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    <span>Ask AI</span>
+</button>
+
+<div class="ai-chat" id="aiChat">
+
+    <div class="ai-header">
+
+        <div class="ai-title">
+
+            <div class="ai-avatar">
+                <i class="fa-solid fa-camera-retro"></i>
+            </div>
+
+            <div>
+                <strong>Hyderabad AI</strong>
+                <small>Your city photography guide</small>
+            </div>
+
+        </div>
+
+        <button id="aiClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+
+    <div class="ai-messages" id="aiMessages">
+
+        <div class="ai-message">
+            <div class="ai-message-avatar">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+
+            <div class="ai-bubble">
+                Namaste! 👋 I'm your Hyderabad photography
+                assistant.
+
+                <br><br>
+
+                Ask me about places, photography,
+                heritage, food or hidden gems in Hyderabad.
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="ai-suggestions">
+
+        <button data-question="What are the best photography places in Hyderabad?">
+            📷 Best photo places
+        </button>
+
+        <button data-question="What is the best time to photograph Charminar?">
+            🏛️ Charminar
+        </button>
+
+        <button data-question="Suggest a Hyderabad sunset photography route.">
+            🌅 Sunset route
+        </button>
+
+    </div>
+
+
+    <form class="ai-input-area" id="aiForm">
+
+        <input
+            type="text"
+            id="aiInput"
+            placeholder="Ask about Hyderabad..."
+            autocomplete="off"
+        >
+
+        <button type="submit">
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+    </form>
+
+</div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
